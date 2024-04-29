@@ -1,0 +1,101 @@
+/* TITULO Y LINKS DE INTERACCION DE LAS OTRAS PAGINAS */
+.creadores{
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 2rem; 
+}
+.creadores img{
+   width: 800px;
+   height: 150px;
+}
+/* TITULO Y LINKS DE INTERACCION DE LAS OTRAS PAGINAS */
+
+
+/* PRIMER PARRAFO CON LA INTRODUCCION Y IMAGEN */
+.introduccion{
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.parrafo1{
+    width: 50%;
+    margin-left: 40%;
+}
+
+.img img{
+    transition: transform 900ms;
+    border-radius: 2rem; 
+    width: 500px;  
+    height: 250px;
+   
+}
+.img:hover img{
+    transform: scale(1.2);
+}
+.img{
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    float: left;
+}
+/* PRIMER PARRAFO CON LA INTRODUCCION Y IMAGEN */
+
+
+/* CUADRO DEL PODER DE HUMO  */
+.humo{
+    border:2px solid rgb(235, 163, 29);
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 1rem;
+    width: 20rem;
+    height: 37rem;
+}
+/* CUADRO DEL PODER DE HUMO  */
+
+
+/* CUADRO DEL PODER DE NEON  */
+.neon{ 
+    border:2px solid purple;
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 1rem;
+    width: 20rem;
+    height: 37rem;  
+ }
+/* CUADRO DEL PODER DE NEON  */
+
+
+/* CUADRO DEL PODER DE VIDEO  */
+.video{
+    border:2px solid rgb(0, 195, 255);
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 1rem;
+    width: 20rem;
+    height: 37rem;  
+}
+/* CUADRO DEL PODER DE VIDEO  */
+ 
+/* FONDO DE PANTALLA  */
+body{
+    background-image: url(https://31.media.tumblr.com/5d85dff1b184fd3a87c8f6cc0c550d72/tumblr_ndnqht6U2G1tm29ojo1_500.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+/* FONDO DE PANTALLA  */
+
+
+/* PIE DE LA PAGINA  */
+.piepagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 2rem;
+    border: 5px solid white;   
+}
+/* PIE DE LA PAGINA  */

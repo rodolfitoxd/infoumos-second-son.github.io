@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-register{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #fbfbfc;
+}
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #fcfcfc;
+    font-size: 18px;
+    color: white;
+}
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a {
+    color: white;
+    text-decoration: none;
+
+}
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.botons {
+    width: 100%;
+    background: #1f531f;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+body{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b0637fb4-2c27-40db-8316-3dfb8d45242c/db5bc1s-b89836d2-90f6-4838-ba96-0c200e272936.jpg/v1/fill/w_1279,h_785,q_75,strp/dup_officer__infamous__second_son_fan_art__by_theobsessiveoli_db5bc1s-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg1IiwicGF0aCI6IlwvZlwvYjA2MzdmYjQtMmMyNy00MGRiLTgzMTYtM2RmYjhkNDUyNDJjXC9kYjViYzFzLWI4OTgzNmQyLTkwZjYtNDgzOC1iYTk2LTBjMjAwZTI3MjkzNi5qcGciLCJ3aWR0aCI6Ijw9MTI3OSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.a7fKGBoVLB0-R0yBnjRXfuCT4qc_HF2aXabfwRu_beU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}

@@ -1,0 +1,133 @@
+/* FONDO DE PANTALLA  */
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/705/415/688/the-game-game-infamous-second-son-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* FONDO DE PANTALLA  */
+
+
+/* CUADRO DE DESCARGA PS4/PS5  */
+.PS4{
+    color: white;
+    border: solid 2PX blue;
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 1rem;
+    width: 75rem;
+    height: 27rem;
+    margin-left: 7%;
+}
+.img img{
+
+    border-radius: 2rem;
+    width: 40%;
+    height: 50%;
+    float: left;
+}
+
+/* CUADRO DE DESCARGA PC  */
+.PC{
+    color: white;
+    border: solid 2px white;
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 1rem;
+    width: 75rem;
+    height: 29rem;
+    margin-left: 7%;
+}
+/* CUADRO DE DESCARGA PC  */
+
+
+/* TITULO DE LA PAGINA WEB  */
+.title{
+    text-align: center;
+    color: white;
+}
+
+/* RESPONSIVE PARA EL CELULAR */
+@media screen and (max-width: 480px) {
+    
+    .title{
+        text-align: center;
+    }
+    .contendor{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        gap: 1% ;
+    }
+    .img img{
+
+        border-radius: 2rem;
+        width: 85%;
+        height: 100%;
+        float: left;
+    }
+    .PC{
+    border:2px solid rgb(15, 28, 219);
+        border-radius: 2rem;
+        padding: 4%;
+        margin: 1%;
+        width: 80%;
+        height: 90%;
+        display: center;
+    }
+    .PS4{
+        border:2px solid rgb(255, 255, 255);
+            border-radius: 2rem;
+            padding: 4%;
+            margin: 1%;
+            width: 80%;
+            height: 90%;
+            display: center;
+        }
+
+}
+/* RESPONSIVE PARA EL CELULAR */
+
+ /* RESPONSIVE DE LA TABLET */
+@media screen and (max-width: 720px) {
+    
+    .title{
+        text-align: center;
+    }
+    .contendor{
+        display: grid;
+        text-align: center;
+    }
+    .img img{
+        border-radius: 2%;
+        width: 85%;
+        height: 100%;
+    }
+    
+    /* CUADRO DE DESCARGA PC  */
+    .PC{
+    border:2px solid rgb(15, 28, 219);
+        border-radius: 2rem;
+        padding: 4%;
+        margin: 1%;
+        width: 80%;
+        height: 90%;
+        display: center;
+    }
+    /* CUADRO DE DESCARGA PC  */
+
+
+    /* CUADRO DE DESCARGA PS4/PS5  */
+    .PS4{
+        border:2px solid rgb(255, 255, 255);
+            border-radius: 2rem;
+            padding: 4%;
+            margin: 1%;
+            width: 80%;
+            height: 90%;
+            display: center;
+        }
+    /* CUADRO DE DESCARGA PS4/PS5  */
+} 
+/* RESPONSIVE DE LA TABLET */

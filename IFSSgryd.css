@@ -1,0 +1,131 @@
+/* GRILLAS DE LOS PODERES/VIDEOS EN EL COONTENEDOR */
+.power{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(1, 2fr);
+    text-align: center;
+    gap: 1% 2%;
+}
+/* GRILLAS EN EL COONTENEDOR */
+
+/* RESPONSIVE PARA EL CELULAR */
+@media screen and (max-width: 480px) {
+    .creadores img{
+        width: 80%;
+        height: 15%;
+     }
+    .introduccion{
+        color: white;
+        
+    }
+    .img img{
+        border-radius: 2rem;
+        width: 85%;
+        height: 100%;
+        float: left;
+    }
+    .parrafo1{
+        width: auto;
+        margin-left: 1%;
+    }
+    .power{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        gap: 1% ;
+    }
+    
+    .humo{
+        border:2px solid rgb(235, 163, 29);
+        border-radius: 2rem;
+        padding: 4%;
+        margin: 1%;
+        width: 80%;
+        height: 90%;
+        display: center;
+        
+    }
+    
+    .neon{ 
+        border:2px solid purple;
+        border-radius: 2rem;
+        padding: 4%;
+        margin: 1%;
+        width: 80%;
+        height: 90%;  
+        display: center;
+     }
+    
+    .video{
+        border:2px solid rgb(0, 195, 255);
+        border-radius: 2rem;
+        padding: 4%;
+        margin: 1%;
+        width: 80%;
+        height: 90%;  
+        display: center;
+    }
+}
+/* RESPONSIVE PARA EL CELULAR */
+
+ /* RESPONSIVE DE LA TABLET */
+@media screen and (max-width: 720px) {
+    .creadores img{
+        width: 80%;
+        height: 15%;
+     }
+    .introduccion{
+        color: white;
+        
+    }
+    .img img{
+        border-radius: 2rem;
+        width: 85%;
+        height: 100%;
+        float: left;
+    }
+    .parrafo1{
+        width: auto;
+        margin-left: 1%;
+    }
+    .power{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        gap: 1.5% ;
+    }
+    
+    .humo{
+        border:2px solid rgb(235, 163, 29);
+        border-radius: 2rem;
+        padding: 4%;
+        margin: 1%;
+        width: 80%;
+        height: 90%;
+        display: center;
+        
+    }
+    
+    .neon{ 
+        border:2px solid purple;
+        border-radius: 2rem;
+        padding: 4%;
+        margin: 1%;
+        width: 80%;
+        height: 90%;  
+        display: center;
+     }
+    
+    .video{
+        border:2px solid rgb(0, 195, 255);
+        border-radius: 2rem;
+        padding: 4%;
+        margin: 1%;
+        width: 80%;
+        height: 90%;  
+        display: center;
+    }
+}
+/* RESPONSIVE DE LA TABLET */
